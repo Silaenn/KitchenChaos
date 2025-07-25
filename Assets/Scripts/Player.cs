@@ -6,9 +6,11 @@ using UnityEngine.AI;
 public class Player : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 7f;
-    Vector2 inputVector = new Vector2(0, 0);
+    bool isWalking;
     void Update()
     {
+        Vector2 inputVector = new Vector2(0, 0);
+
         if (Input.GetKey(KeyCode.W))
         {
             inputVector.y = +1;
@@ -34,9 +36,16 @@ public class Player : MonoBehaviour
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
         transform.position += moveDir * moveSpeed * Time.deltaTime;
 
+        isWalking = moveDir != Vector3.zero;
+        Debug.Log(isWalking);
+
         float rotateSpeed = 10f;
-        transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed); 
+        transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
         Debug.Log(moveDir);
-        
+    }
+
+    public bool IsWalking()
+    {
+        return isWalking;
     }
 }
