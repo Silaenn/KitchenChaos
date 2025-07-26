@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1753438153
+  lastShownTimestamp: 1753524687
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1753438153
+  checkedLastUpdateTimestamp: 1753524687
   lastQOTDResponse:
     questionId: 204
     questionText: 'What will be the value of isOne?
@@ -32,7 +32,7 @@ MonoBehaviour:
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1753438153
+  lastQotdTimestamp: 1753524687
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -40,11 +40,11 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1753438153
+  lastDynamicHeaderTimestamp: 1753524687
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1753438153
+  websiteLatestMessageTimestamp: 1753524687
   websiteLatestVideos:
     videos:
     - youTubeId: SfZquiwnEPQ
@@ -55,4 +55,4 @@ MonoBehaviour:
       title: Learn C# by DOING, Hangman Beginner Project (Overview + Walkthrough)
     - youTubeId: s9ORB4W5K2E
       title: How to make an AWESOME Fantasy RPG in 19 MINUTES!
-  websiteLatestVideosTimestamp: 1753438153
+  websiteLatestVideosTimestamp: 1753524687
