@@ -14,25 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1753438153
+  lastShownTimestamp: 1753766717
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1753438153
+  checkedLastUpdateTimestamp: 1753766717
   lastQOTDResponse:
-    questionId: 204
-    questionText: 'What will be the value of isOne?
+    questionId: 205
+    questionText: 'Is this valid code?
 
-      <p>float oneThird = 1f
-      / 3f;</p>
-
-      <p>bool isOne = (oneThird * 3f) == 1f;</p>'
-    answerA: true
-    answerB: false
+      <p>Color? myColor = null;</p>'
+    answerA: Yes
+    answerB: No, myColor is a struct and cannot be null
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1753438153
+  lastQotdTimestamp: 1753766717
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -40,19 +37,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1753438153
+  lastDynamicHeaderTimestamp: 1753766717
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1753438153
+  websiteLatestMessageTimestamp: 1753766717
   websiteLatestVideos:
     videos:
+    - youTubeId: K-AjBKP4uq0
+      title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
+    - youTubeId: YMMS621ZoI8
+      title: NEW Steam 2025 Marketing Tips you NEED to know!
     - youTubeId: SfZquiwnEPQ
       title: TOP 10 NEW Systems and Tools JUNE 2025! | Unity Asset Store
     - youTubeId: oBCXk_6Fft0
       title: This MISTAKE cost $28,000,000!
-    - youTubeId: TYgEWbK-mCc
-      title: Learn C# by DOING, Hangman Beginner Project (Overview + Walkthrough)
-    - youTubeId: s9ORB4W5K2E
-      title: How to make an AWESOME Fantasy RPG in 19 MINUTES!
-  websiteLatestVideosTimestamp: 1753438153
+  websiteLatestVideosTimestamp: 1753766717
