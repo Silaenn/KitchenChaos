@@ -805,6 +805,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013486693 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2050925153716445452, guid: 858e8dd6664ea144baf923681cf82acd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1228690728}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d8aa093c2fb4e4aaa903a93431ab6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1228690728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1009,10 +1021,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2050925153716445452, guid: 858e8dd6664ea144baf923681cf82acd,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050925153716445452, guid: 858e8dd6664ea144baf923681cf82acd,
+        type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 7865204270935336291, guid: 7f9ef4ae0bb8f8a448b3217d7c92064d,
         type: 3}
+    - target: {fileID: 2050925153716445452, guid: 858e8dd6664ea144baf923681cf82acd,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1013486693}
     - target: {fileID: 4721426041553799018, guid: 858e8dd6664ea144baf923681cf82acd,
         type: 3}
       propertyPath: m_LocalPosition.x
