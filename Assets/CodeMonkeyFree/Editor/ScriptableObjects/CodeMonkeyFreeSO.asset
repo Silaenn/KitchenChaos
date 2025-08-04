@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1754102669
+  lastShownTimestamp: 1754225229
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754102669
+  checkedLastUpdateTimestamp: 1754225229
   lastQOTDResponse:
-    questionId: 206
-    questionText: The Profiler is useful for...
-    answerA: Balancing difficulty
-    answerB: Level Design
-    answerC: Indentifying performance bottlenecks
-    answerD: 
+    questionId: 207
+    questionText: How should you store the health of each unit in your game?
+    answerA: public int health;
+    answerB: private int health;
+    answerC: public static int health;
+    answerD: private int h;
     answerE: 
-  lastQotdTimestamp: 1754102669
+  lastQotdTimestamp: 1754225229
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,11 +35,11 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754102669
+  lastDynamicHeaderTimestamp: 1754225229
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754102669
+  websiteLatestMessageTimestamp: 1754225229
   websiteLatestVideos:
     videos:
     - youTubeId: ubBS7vTQlVo
@@ -50,4 +50,4 @@ MonoBehaviour:
       title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
     - youTubeId: YMMS621ZoI8
       title: NEW Steam 2025 Marketing Tips you NEED to know!
-  websiteLatestVideosTimestamp: 1754102669
+  websiteLatestVideosTimestamp: 1754225229
