@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1754225229
+  lastShownTimestamp: 1754322966
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754225229
+  checkedLastUpdateTimestamp: 1754322966
   lastQOTDResponse:
     questionId: 207
     questionText: How should you store the health of each unit in your game?
@@ -27,7 +27,7 @@ MonoBehaviour:
     answerC: public static int health;
     answerD: private int h;
     answerE: 
-  lastQotdTimestamp: 1754225229
+  lastQotdTimestamp: 1754322966
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,11 +35,11 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754225229
+  lastDynamicHeaderTimestamp: 1754322966
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754225229
+  websiteLatestMessageTimestamp: 1754322966
   websiteLatestVideos:
     videos:
     - youTubeId: ubBS7vTQlVo
@@ -50,4 +50,4 @@ MonoBehaviour:
       title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
     - youTubeId: YMMS621ZoI8
       title: NEW Steam 2025 Marketing Tips you NEED to know!
-  websiteLatestVideosTimestamp: 1754225229
+  websiteLatestVideosTimestamp: 1754322966
