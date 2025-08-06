@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1754322966
+  lastShownTimestamp: 1754409552
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754322966
+  checkedLastUpdateTimestamp: 1754409552
   lastQOTDResponse:
-    questionId: 207
-    questionText: How should you store the health of each unit in your game?
-    answerA: public int health;
-    answerB: private int health;
-    answerC: public static int health;
-    answerD: private int h;
+    questionId: 208
+    questionText: Which namespace do we need to use File.WriteAllText()?
+    answerA: using System;
+    answerB: using UnityEngine;
+    answerC: using System.IO;
+    answerD: using UnityEngine.UI;
     answerE: 
-  lastQotdTimestamp: 1754322966
+  lastQotdTimestamp: 1754409552
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,19 +35,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754322966
+  lastDynamicHeaderTimestamp: 1754409552
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754322966
+  websiteLatestMessageTimestamp: 1754409552
   websiteLatestVideos:
     videos:
+    - youTubeId: DaKW4kqFlao
+      title: How to LEARN new Skills on HARD MODE!
     - youTubeId: ubBS7vTQlVo
       title: Cooking is HARDER than Programming!
     - youTubeId: kWRCB-R2Yrg
       title: TOP 20 Visual Assets to INSPIRE YOU! (JULY 2025)
     - youTubeId: K-AjBKP4uq0
       title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
-    - youTubeId: YMMS621ZoI8
-      title: NEW Steam 2025 Marketing Tips you NEED to know!
-  websiteLatestVideosTimestamp: 1754322966
+  websiteLatestVideosTimestamp: 1754409552
