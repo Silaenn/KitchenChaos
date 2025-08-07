@@ -14,7 +14,7 @@ public class CuttingCounterVisual : MonoBehaviour
 
     void Start()
     {
-        cuttingCounter.OnPlayerCutObject += ContainerCounter_OnPlayerCutObject;
+        cuttingCounter.OnCut += ContainerCounter_OnPlayerCutObject;
     }
 
     void ContainerCounter_OnPlayerCutObject(object sender, System.EventArgs e)
