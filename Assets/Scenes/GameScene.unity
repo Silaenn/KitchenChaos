@@ -4357,6 +4357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abfbe466d2928af40a6170bdc55575c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerImage: {fileID: 1180012782}
 --- !u!4 &1522744803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6167931671287553457, guid: d534fbf13e34b9d4da9888b36f6238b1,
