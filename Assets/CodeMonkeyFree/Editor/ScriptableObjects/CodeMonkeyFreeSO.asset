@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1754409552
+  lastShownTimestamp: 1754522866
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754409552
+  checkedLastUpdateTimestamp: 1754522867
   lastQOTDResponse:
     questionId: 208
     questionText: Which namespace do we need to use File.WriteAllText()?
@@ -27,7 +27,7 @@ MonoBehaviour:
     answerC: using System.IO;
     answerD: using UnityEngine.UI;
     answerE: 
-  lastQotdTimestamp: 1754409552
+  lastQotdTimestamp: 1754522867
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,19 +35,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754409552
+  lastDynamicHeaderTimestamp: 1754522867
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754409552
+  websiteLatestMessageTimestamp: 1754522867
   websiteLatestVideos:
     videos:
+    - youTubeId: y-w3vnh_f4Q
+      title: Are Old Tutorials OBSOLETE?
     - youTubeId: DaKW4kqFlao
       title: How to LEARN new Skills on HARD MODE!
     - youTubeId: ubBS7vTQlVo
       title: Cooking is HARDER than Programming!
     - youTubeId: kWRCB-R2Yrg
       title: TOP 20 Visual Assets to INSPIRE YOU! (JULY 2025)
-    - youTubeId: K-AjBKP4uq0
-      title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
-  websiteLatestVideosTimestamp: 1754409552
+  websiteLatestVideosTimestamp: 1754522867
