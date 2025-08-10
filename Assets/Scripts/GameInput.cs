@@ -20,7 +20,10 @@ public class GameInput : MonoBehaviour
         Move_Right,
         Interact,
         InteractALternate,
-        Pause
+        Pause,
+        Gamepad_Interact,
+        Gamepad_InteractAlternate,
+        Gamepad_Pause
 
     }
     PlayerInput playerInput;
@@ -39,6 +42,7 @@ public class GameInput : MonoBehaviour
         playerInput.Player.Interact.performed += Interact_performed;
         playerInput.Player.InteractAlternate.performed += InteractAlternate_performed;
         playerInput.Player.Pause.performed += Pause_Performed;
+        // ResetBindings();
     }
 
     void OnDestroy()
@@ -93,6 +97,12 @@ public class GameInput : MonoBehaviour
                 return playerInput.Player.InteractAlternate.bindings[0].ToDisplayString();
             case Binding.Pause:
                 return playerInput.Player.Pause.bindings[0].ToDisplayString();
+            case Binding.Gamepad_Interact:
+                return playerInput.Player.Interact.bindings[1].ToDisplayString();
+            case Binding.Gamepad_InteractAlternate:
+                return playerInput.Player.InteractAlternate.bindings[1].ToDisplayString();
+            case Binding.Gamepad_Pause:
+                return playerInput.Player.Pause.bindings[1].ToDisplayString();
         }
     }
 
@@ -133,6 +143,18 @@ public class GameInput : MonoBehaviour
                 inputAction = playerInput.Player.Pause;
                 bindingIndex = 0;
                 break;
+            case Binding.Gamepad_Interact:
+                inputAction = playerInput.Player.Interact;
+                bindingIndex = 1;
+                break;
+            case Binding.Gamepad_InteractAlternate:
+                inputAction = playerInput.Player.InteractAlternate;
+                bindingIndex = 1;
+                break;
+            case Binding.Gamepad_Pause:
+                inputAction = playerInput.Player.Pause;
+                bindingIndex = 1;
+                break;
         }
 
         inputAction.PerformInteractiveRebinding(bindingIndex).OnComplete(callback =>
@@ -145,5 +167,17 @@ public class GameInput : MonoBehaviour
             PlayerPrefs.Save();
         }).Start();
     }
+
+    public void ResetBindings()
+    {
+        PlayerPrefs.DeleteKey(PLAYER_PREFS_BINDINGS);
+        PlayerPrefs.Save();
+
+        playerInput.Dispose();
+        playerInput = new PlayerInput();
+        playerInput.Player.Enable();
+    }
+
+
    
 }
