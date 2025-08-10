@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1754743796
+  lastShownTimestamp: 1754835713
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754743796
+  checkedLastUpdateTimestamp: 1754835713
   lastQOTDResponse:
     questionId: 209
     questionText: Can Color ever be null?
@@ -27,7 +27,7 @@ MonoBehaviour:
     answerC: Yes, as Nullable
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1754743796
+  lastQotdTimestamp: 1754835713
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,11 +35,11 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754743796
+  lastDynamicHeaderTimestamp: 1754835713
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754743796
+  websiteLatestMessageTimestamp: 1754835713
   websiteLatestVideos:
     videos:
     - youTubeId: 7xz5Xh4E_B0
@@ -50,4 +50,4 @@ MonoBehaviour:
       title: How to LEARN new Skills on HARD MODE!
     - youTubeId: ubBS7vTQlVo
       title: Cooking is HARDER than Programming!
-  websiteLatestVideosTimestamp: 1754743796
+  websiteLatestVideosTimestamp: 1754835713
