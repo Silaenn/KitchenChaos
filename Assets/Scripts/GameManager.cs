@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     State state;
     float countdownToStartTimer = 3f;
     float gamePlayingTimer;
-    float gamePlayingTimerMax = 10f;
+    float gamePlayingTimerMax = 60f;
     bool isGamePaused = false;
 
     void Awake()
