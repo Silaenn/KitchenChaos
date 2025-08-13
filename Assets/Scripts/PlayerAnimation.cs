@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class PlayerAnimation : MonoBehaviour
+public class PlayerAnimation : NetworkBehaviour
 {
     const string IS_WALKING = "IsWalking";
     [SerializeField] Player player;
@@ -14,6 +15,12 @@ public class PlayerAnimation : MonoBehaviour
 
     void Update()
     {
+        if (!IsOwner)
+        {
+            return;    
+        }
+        
+
         animator.SetBool(IS_WALKING, player.IsWalking());
     }
 
