@@ -22,12 +22,21 @@ public class TutorialUI : MonoBehaviour
         GameInput.Instance.OnBindingRebind += GameInput_OnBindingRebind;
         GameManager.Instance.OnStateChanged += GameManager_OnStateChanged;
         UpdateVisual();
-        Show();
+
+        if (GameManager.Instance.IsCountdownToStartActive() || GameManager.Instance.IsGamePlaying() || GameManager.Instance.isGameOver())
+        {
+            Hide();
+        }
+        else
+        {
+            Show();
+        }
+        
     }
 
     void GameManager_OnStateChanged(object sender, System.EventArgs e)
     {
-        if (GameManager.Instance.isCountdownToStartActive())
+        if (GameManager.Instance.IsCountdownToStartActive())
         {
             Hide();
         }

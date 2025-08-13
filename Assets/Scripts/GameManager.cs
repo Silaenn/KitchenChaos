@@ -18,9 +18,9 @@ public class GameManager : MonoBehaviour
         GameOver
     }
     State state;
-    float countdownToStartTimer = 3f;
+    float countdownToStartTimer = 1f;
     float gamePlayingTimer;
-    float gamePlayingTimerMax = 60f;
+    float gamePlayingTimerMax = 300f;
     bool isGamePaused = false;
 
     void Awake()
@@ -33,6 +33,10 @@ public class GameManager : MonoBehaviour
     {
         GameInput.Instance.OnPauseAction += GameInput_OnPauseAction;
         GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
+
+        // DEBUG TRIGGER GAME START AUTOMATICALLY
+        state = State.CountdownToStart;
+        OnStateChanged?.Invoke(this, EventArgs.Empty);
     }
 
     void GameInput_OnInteractAction(object sender, System.EventArgs e)
@@ -41,7 +45,6 @@ public class GameManager : MonoBehaviour
         {
             state = State.CountdownToStart;
             OnStateChanged?.Invoke(this, EventArgs.Empty);
-
         }
     }
     void GameInput_OnPauseAction(object sender, System.EventArgs e)
@@ -74,8 +77,6 @@ public class GameManager : MonoBehaviour
                 break;
             case State.GameOver: break;
         }
-
-        Debug.Log(state);
     }
 
     public bool IsGamePlaying()
@@ -83,7 +84,7 @@ public class GameManager : MonoBehaviour
         return state == State.GamePlaying;
     }
 
-    public bool isCountdownToStartActive()
+    public bool IsCountdownToStartActive()
     {
         return state == State.CountdownToStart;
     }
