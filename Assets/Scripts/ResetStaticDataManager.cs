@@ -7,7 +7,8 @@ public class ResetStaticDataManager : MonoBehaviour
     void Awake()
     {
         CuttingCounter.ResetStaticData();
-        TrashCounter.ResetStaticData();
         BaseCounter.ResetStaticData();
+        TrashCounter.ResetStaticData();
+        Player.ResetStaticData();
     }
 }
