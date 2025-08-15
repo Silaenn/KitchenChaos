@@ -24,7 +24,7 @@ public class ContainerCounter : BaseCounter
     {
         InteractLogicClientRpc();
     }
-    
+
     [ClientRpc]
     void InteractLogicClientRpc()
     {
