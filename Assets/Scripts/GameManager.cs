@@ -170,9 +170,14 @@ public class GameManager : NetworkBehaviour
         return countdownToStartTimer.Value;
     }
 
-    public bool isGameOver()
+    public bool IsGameOver()
     {
         return state.Value == State.GameOver;
+    }
+
+    public bool IsWaitingToStart()
+    {
+        return state.Value == State.WaitingToStart;
     }
 
     public bool IsLocalPlayerReady()
