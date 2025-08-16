@@ -23,7 +23,7 @@ public class TutorialUI : MonoBehaviour
         GameManager.Instance.OnLocalPlayerReadyChanged += GameManager_OnLocalPlayerReadyChanged;
         UpdateVisual();
 
-        if (GameManager.Instance.IsCountdownToStartActive() || GameManager.Instance.IsGamePlaying() || GameManager.Instance.isGameOver())
+        if (GameManager.Instance.IsCountdownToStartActive() || GameManager.Instance.IsGamePlaying() || GameManager.Instance.IsGameOver())
         {
             Hide();
         }
