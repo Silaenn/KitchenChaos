@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
@@ -85,7 +86,7 @@ public class KitchenObject : NetworkBehaviour
         KitchenGameMultiPlayer.Instance.SpawnKitchenObject(kitchenObjectSO, kitchenObjectParent);
     }
 
-    public static void DestroyKitchenObejct(KitchenObject kitchenObject)
+    public static void DestroyKitchenObject(KitchenObject kitchenObject)
     {
         KitchenGameMultiPlayer.Instance.DestroyKitchenObject(kitchenObject);
     }
