@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1755225280
+  lastShownTimestamp: 1755316636
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1755223782
+  checkedLastUpdateTimestamp: 1755316636
   lastQOTDResponse:
     questionId: 211
     questionText: Can you modify transform.forward directly to rotate a transform?
@@ -27,7 +27,7 @@ MonoBehaviour:
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1755223782
+  lastQotdTimestamp: 1755316636
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,19 +35,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1755223782
+  lastDynamicHeaderTimestamp: 1755316636
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1755223782
+  websiteLatestMessageTimestamp: 1755316636
   websiteLatestVideos:
     videos:
+    - youTubeId: CZ5rsOwgcl4
+      title: Unity 6.2 is HERE!
     - youTubeId: taWg92DaORw
       title: The 5 MUST HAVE Assets you NEED! (SALE ENDS SOON!)
     - youTubeId: nGKd4yTP3M8
       title: Learn Unity 2D Beginner FREE COMPLETE Course
     - youTubeId: 7xz5Xh4E_B0
       title: I NEED your HELP!
-    - youTubeId: y-w3vnh_f4Q
-      title: Are Old Tutorials OBSOLETE?
-  websiteLatestVideosTimestamp: 1755223782
+  websiteLatestVideosTimestamp: 1755316636
