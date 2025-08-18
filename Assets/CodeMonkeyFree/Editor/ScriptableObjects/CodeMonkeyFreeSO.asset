@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1755316636
+  lastShownTimestamp: 1755497862
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1755316636
+  checkedLastUpdateTimestamp: 1755497862
   lastQOTDResponse:
-    questionId: 211
-    questionText: Can you modify transform.forward directly to rotate a transform?
-    answerA: Yes
-    answerB: No
-    answerC: 
+    questionId: 212
+    questionText: 'What is the value stored in percentage?
+
+      <p>int health =
+      25;</p>
+
+      <p>int healthMax = 100;</p>
+
+      <p>float percentage = health
+      / healthMax;</p>'
+    answerA: 0.25f
+    answerB: 0
+    answerC: 2.5f
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1755316636
+  lastQotdTimestamp: 1755497862
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,19 +43,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1755316636
+  lastDynamicHeaderTimestamp: 1755497862
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1755316636
+  websiteLatestMessageTimestamp: 1755497862
   websiteLatestVideos:
     videos:
+    - youTubeId: XJsidUVPOCY
+      title: TOP 10 NEW Games, Made with Unity! (JULY 2025)
     - youTubeId: CZ5rsOwgcl4
       title: Unity 6.2 is HERE!
     - youTubeId: taWg92DaORw
       title: The 5 MUST HAVE Assets you NEED! (SALE ENDS SOON!)
     - youTubeId: nGKd4yTP3M8
       title: Learn Unity 2D Beginner FREE COMPLETE Course
-    - youTubeId: 7xz5Xh4E_B0
-      title: I NEED your HELP!
-  websiteLatestVideosTimestamp: 1755316636
+  websiteLatestVideosTimestamp: 1755497862
