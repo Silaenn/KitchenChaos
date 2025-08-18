@@ -68,4 +68,9 @@ public class CharacterSelectedPlayer : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+    void OnDestroy()
+    {
+        KitchenGameMultiPlayer.Instance.OnPlayerDataNetworkListChanged -= KitchenGameMultiPlayer_OnPlayerDataNetworkListChanged;
+    }
 }
