@@ -8,6 +8,14 @@ public class HostDisconnectUI : MonoBehaviour
 {
     [SerializeField] Button playAgainButton;
 
+    void Awake()
+    {
+        playAgainButton.onClick.AddListener(() =>
+        {
+            Loader.Load(Loader.Scene.MainMenuScene);
+        });
+    }
+
     void Start()
     {
         NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManager_OnClientDisconnectCallback;
@@ -31,5 +39,10 @@ public class HostDisconnectUI : MonoBehaviour
     void Hide()
     {
         gameObject.SetActive(false);
+    }
+
+    void OnDestroy()
+    {
+        NetworkManager.Singleton.OnClientDisconnectCallback -= NetworkManager_OnClientDisconnectCallback;
     }
 }

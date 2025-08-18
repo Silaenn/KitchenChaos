@@ -202,8 +202,6 @@ public class GameManager : NetworkBehaviour
     {
         return 1 - (gamePlayingTimer.Value / gamePlayingTimerMax);
     }
-
-
     public void TogglePauseGame()
     {
         isLocalGamePaused = !isLocalGamePaused;
