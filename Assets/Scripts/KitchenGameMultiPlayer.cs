@@ -2,12 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class KitchenGameMultiPlayer : NetworkBehaviour
 {
-    const int MAX_PLAYER_AMOUNT = 4;
+    public const int MAX_PLAYER_AMOUNT = 4;
+    const string PLAYER_PREFS_NAME_MULTIPLAYER = "PlayerNameMultiplayer";
     public static KitchenGameMultiPlayer Instance { get; private set; }
     public event EventHandler OnTryingToJoinGame;
     public event EventHandler OnFailedToJoinGame;
@@ -16,14 +18,30 @@ public class KitchenGameMultiPlayer : NetworkBehaviour
     [SerializeField] KitchenObjectListSO kitchenObjectListSO;
     [SerializeField] List<Color> playerColorList;
     NetworkList<PlayerData> playerDataNetworkList;
+    string playerName;
     void Awake()
     {
         Instance = this;
 
         DontDestroyOnLoad(gameObject);
 
+        playerName = PlayerPrefs.GetString(PLAYER_PREFS_NAME_MULTIPLAYER, "PlayerName" + UnityEngine.Random.Range(100, 100));
+        
         playerDataNetworkList = new NetworkList<PlayerData>();
         playerDataNetworkList.OnListChanged += PlayerDataNetworkList_OnListChanged;
+        
+    }
+
+    public string GetPlayerName()
+    {
+        return playerName;
+    }
+
+    public void SetPlayerName(string playerName)
+    {
+        this.playerName = playerName;
+
+        PlayerPrefs.SetString(PLAYER_PREFS_NAME_MULTIPLAYER, playerName);
     }
 
     void PlayerDataNetworkList_OnListChanged(NetworkListEvent<PlayerData> changeEvent)
