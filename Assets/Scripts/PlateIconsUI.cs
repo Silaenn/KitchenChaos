@@ -34,6 +34,6 @@ public class PlateIconsUI : MonoBehaviour
             Transform iconTransform = Instantiate(iconTemplate, transform);
             iconTransform.gameObject.SetActive(true);
             iconTransform.GetComponent<PlateIconsSingleUI>().SetKitchenObjectSO(kitchenObjectSO);
-        }   
+        }
     }
 }

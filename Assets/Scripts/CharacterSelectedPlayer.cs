@@ -20,7 +20,7 @@ public class CharacterSelectedPlayer : MonoBehaviour
         kickButton.onClick.AddListener(() =>
         {
             PlayerData playerData = KitchenGameMultiPlayer.Instance.GetPlayerDataFromPlayerIndex(playerIndex);
-
+            KitchenGameLobby.Instance.KickPlayer(playerData.playerId.ToString());
             KitchenGameMultiPlayer.Instance.KickPlayer(playerData.clientId);
         });
     }
@@ -54,7 +54,7 @@ public class CharacterSelectedPlayer : MonoBehaviour
 
             readyGameObject.SetActive(CharacterSelectReady.Instance.IsPlayerReady(playerData.clientId));
 
-            playerNameText.text = "";
+            playerNameText.text = playerData.playerName.ToString();
 
             playerVisual.SetPlayerColor(KitchenGameMultiPlayer.Instance.GetPlayerColor(playerData.colorId));
         }
