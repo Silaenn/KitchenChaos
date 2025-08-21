@@ -45,7 +45,7 @@ public class KitchenGameLobby : MonoBehaviour
         if (UnityServices.State != ServicesInitializationState.Initialized)
         {
             InitializationOptions initializationOptions = new InitializationOptions();
-            initializationOptions.SetProfile(UnityEngine.Random.Range(0, 10000).ToString());
+            // initializationOptions.SetProfile(UnityEngine.Random.Range(0, 10000).ToString());
 
             await UnityServices.InitializeAsync(initializationOptions);
 
@@ -64,7 +64,7 @@ public class KitchenGameLobby : MonoBehaviour
         if (joinedLobby == null && AuthenticationService.Instance.IsSignedIn && SceneManager.GetActiveScene().name == Loader.Scene.LobbyScene.ToString())
         {
             listLobbiesTimer -= Time.deltaTime;
-            if (listLobbiesTimer <= 0f)
+            if (listLobbiesTimer <= 0f) 
             {
                 float listLobbiesTimerMax = 3f;
                 listLobbiesTimer = listLobbiesTimerMax;
@@ -232,7 +232,6 @@ public class KitchenGameLobby : MonoBehaviour
             JoinAllocation joinAllocation = await JoinRelay(relayJoinCode);
 
             NetworkManager.Singleton.GetComponent<UnityTransport>().SetRelayServerData(new RelayServerData(joinAllocation, "dtls"));
-
 
             KitchenGameMultiPlayer.Instance.StartClient();
         }
